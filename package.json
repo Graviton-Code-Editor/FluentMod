@@ -1,0 +1,8 @@
+{
+  "name": "Fluent Design UI mod",
+  "version": "0.0.1",
+  "description": "A Fluent Design UI changer. (still on testing)",
+  "folder":"FluentPlugin",
+  "author": "Marc Espín",
+  "css":["main.css"]
+}
