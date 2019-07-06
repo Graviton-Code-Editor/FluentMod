@@ -4,5 +4,5 @@
   "description": "A Fluent Design UI changer. (still on testing)",
   "folder":"plugin_FluentDesign",
   "author": "Marc Espín",
-  "css":[]
+  "css":["main.css"]
 }
