@@ -1,5 +1,7 @@
-*{
-  font-family: "Segoe UI" !important;
+
+@font-face {
+  font-family: _main_font;
+  src: local("Segoe UI");
 }
 .dropdown-content {
     position: fixed;
@@ -7,9 +9,9 @@
     min-width: auto;
     overflow: auto;
     z-index: 80;
-    box-shadow: 1px 3px 7px var(--shadows);
+    box-shadow: 1px 5px 20px var(--shadows);
     margin: 0;
-    border: 1px solid gray;
+    border: 1.1px solid var(--primaryColor);
     padding: 1px;
     border-radius: 0;
   }
@@ -19,7 +21,7 @@
     font-size: 13px;
     color: var(--white-black);
     background-color: transparent;
-    padding: 6px 5px;
+    padding: 7px 5px;
     width: 100%;
     text-decoration: none;
     display: block;
@@ -31,8 +33,8 @@
   }
   
   .dropdown-content>button:hover:not(.dropbtn) {
-    color: var(--black-white);
-    background-color: var(--widget-color);
+    color: var(--white-black);
+    background-color: var(--primaryColor);
     border-radius: 0px;
     cursor: pointer;
   }
@@ -94,7 +96,7 @@
 
   .show {
     transition: 0.12s;
-    transform: translateY(2px) ;
+    transform: translateY(0px) ;
     opacity: 1;
     display: block;
     visibility: visible;
