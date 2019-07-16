@@ -109,7 +109,7 @@
     visibility: hidden;
   }
 
-  #nav_bar button {
+  .navbar button {
     font-family: _main_font;
     font-size: 15px;
     color: var(--white-black);
@@ -127,7 +127,7 @@
   }
   
   
-  #nav_bar button.active {
+  .navbar button.active {
     cursor: pointer;
     transition: 0.05s;
     border-left: 5px solid var(--accentColor);
@@ -135,13 +135,13 @@
     border-radius: 0px;
     color:var(--white-black)
   }
-  #nav_bar button:hover {
+  .navbar button:hover {
     background: var(--widget-color);
     color:var(--white-black);
     border-radius: 0;
     cursor: pointer;
   }
-  #nav_bar button:active {
+  .navbar button:active {
     transition: 0.05s;
     transform: scale(0.99);
     background: var(--widget-color);
@@ -154,7 +154,7 @@
     border-radius: 0px;
   }
 
-  #settings_content {
+  .window_content {
     border-radius: 0px;
   }
 
