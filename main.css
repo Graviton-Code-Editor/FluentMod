@@ -147,8 +147,9 @@ span.line_space_menus {
   background: var(--widget-color);
   color:var(--white-black);
 }
-
-
+.navbar button.active:hover {
+  background: var(--widget-color);
+}
 
 .body_window{
   border-radius: 0px;
@@ -172,6 +173,7 @@ button.button1{
   max-width: 330px;
   min-height: 110px;
   max-height: 70%;
+  transform: translate(-50%,-50%);
 }
 .dialog_body p:nth-child(1){
   font-weight: normal !important;
@@ -203,4 +205,20 @@ button.button1{
 
 .theme_div {
   border-radius: 0px;
+}
+.body_window {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+}
+
+@keyframes window_up {
+  from {
+    transform: scale(1.05) translate(-48%,-48%);
+
+  }
+
+  to {
+    transform: scale(1) translate(-50%,-50%);
+  }
 }
