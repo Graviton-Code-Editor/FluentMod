@@ -229,3 +229,20 @@ button.button1{
 .g_tabs_bar .tabs:hover {
   border-radius: 0px !important;
 }
+
+.notificationBody {
+  border-radius: 0px;
+  animation: open_up linear  0.13s;
+}
+
+@keyframes open_up {
+  from {
+    opacity: 0;
+    right: -90px;
+  }
+
+  to {
+    right: 0px;
+    opacity: 1;
+  }
+}
