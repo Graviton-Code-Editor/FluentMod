@@ -1,7 +1,7 @@
 {
   "name": "FluentMod",
-  "version": "0.0.1",
-  "description": "A Fluent Design UI changer. (still on testing)",
+  "version": "0.0.2",
+  "description": "A Fluent Design UI changer.",
   "folder":"FluentMod",
   "author": "Marc Espín",
   "css":["main.css"]

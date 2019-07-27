@@ -264,12 +264,9 @@ button.button1{
   width: 9px;
   border-radius: 50px;
   position: relative;
-  top: 5.5px;
+  top: 6px;
 }
 
-.switch:active {
-  transform: scale(var(--scalation));
-}
 .activated.switch {
   background: var(--accentColor);
 }
@@ -303,7 +300,15 @@ button.button1{
   left: -2px;
   position: relative;
 }
+.switch:active {
+  transform: none;
+  background: var(--widget-color);
+  border-color: var(--widget-color);
+}
+.switch:active > div {
+  background: var(--black-white)
 
+}
 .slider {
   -webkit-appearance: none;
   width: auto;
