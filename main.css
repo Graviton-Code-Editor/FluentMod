@@ -345,3 +345,29 @@ button.button1{
 .section-3{
   border-radius: 0px;
 }
+
+a.active{
+  border-radius: 0px;
+}
+
+
+gv-navpanel.side-menu gv-navbar gv-navbutton{
+  margin: 0px 3px;
+  padding:8px 12px;
+  border-radius: 0px;
+
+}
+
+
+gv-navpanel.top-bar gv-navbar gv-navbutton{
+  margin: 5px 0px;
+  padding:8px 12px;
+  border-radius: 0px;
+
+}
+
+
+gv-navpanel.top-bar gv-navcontent {
+  border-radius: 0px;
+
+}
