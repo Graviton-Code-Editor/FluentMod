@@ -1,6 +1,6 @@
 {
   "name": "FluentMod",
-  "version": "0.0.21",
+  "version": "0.0.3",
   "description": "A Fluent Design UI changer.",
   "author": "Marc Espín",
   "css":["main.css"]

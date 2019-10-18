@@ -350,24 +350,60 @@ a.active{
   border-radius: 0px;
 }
 
-
+gv-navpanel.side-menu gv-navbar{
+  padding:0px;
+  width:300px;
+}
+gv-navpanel.side-menu gv-navbar gv-navtitle{
+  margin:25px;
+}
 gv-navpanel.side-menu gv-navbar gv-navbutton{
-  margin: 0px 3px;
   padding:8px 12px;
   border-radius: 0px;
-
-}
-
-
-gv-navpanel.top-bar gv-navbar gv-navbutton{
+  background: transparent;
+  border-left:3px solid transparent;
+  color:var(--white-black) ;
   margin: 5px 0px;
   padding:8px 12px;
   border-radius: 0px;
 
 }
+gv-navpanel.side-menu gv-navbar gv-navbutton:hover{
+  background: transparent !important;
+  color:var(--accentColor);
 
+}
+gv-navpanel.side-menu gv-navbar gv-navbutton.active,gv-navpanel.side-menu gv-navbar gv-navbutton[default=""]{
+  border-left:3px solid var(--accentColor);
+  background: transparent;
+  color:var(--white-black) !important;
+}
+
+gv-navpanel.side-menu gv-navcontent {
+margin: 10px;
+
+}
 
 gv-navpanel.top-bar gv-navcontent {
   border-radius: 0px;
 
+}
+
+#top_bar_app {
+  height:40px;
+  max-height: 40px;
+}
+
+#top_bar_app > #dropmenus_app button.dropbtn {
+  height:40px;
+}
+
+.dropdown-content {
+  border-radius: 5px;
+  padding:3px;
+}
+.section-2{
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.05);
+  margin:10px 5px;
 }
