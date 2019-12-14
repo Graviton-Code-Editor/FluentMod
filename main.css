@@ -4,13 +4,8 @@
   src: local("Segoe UI");
 }
 .dropdown-content {
-  position: fixed;
   background: var(--dropmenu-background-color);
-  min-width: auto;
-  overflow: auto;
-  z-index: 80;
   box-shadow: 1px 5px 20px var(--shadows);
-  margin: 0;
   border: 1.1px solid var(--primaryColor);
   padding: 1px;
   border-radius: 0;
@@ -19,16 +14,10 @@
 .dropdown-content>button:not(.dropbtn) {
   font-family: _main_font;
   font-size: 13px;
-  color: var(--white-black);
   background-color: transparent;
   padding: 7px 5px;
-  width: 100%;
   text-decoration: none;
-  display: block;
-  border: 0;
-  text-align: left;
   transform: scale(1);
-  padding-right: 10px;
   border-radius: 0px ;
 }
 
@@ -44,9 +33,7 @@
   transform: scale(0.97);
 }
 
-.dropdown-content>button:not(.dropbtn) div {
-  display: inline-block;
-}
+
 
 .dropdown-content>button:not(.dropbtn) *:nth-child(1) {
   margin: 0 1px;
@@ -87,8 +74,6 @@
 }
 
 span.line_space_menus {
-  width: auto;
-  display: block;
   height: 1px;
   margin: 6px;
   background: var(--dropmenu-span-color);
