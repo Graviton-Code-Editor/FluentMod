@@ -3,6 +3,8 @@
   "version": "0.0.4",
   "description": "A Fluent Design UI changer.",
   "author": "Marc Espín",
+  "type":"custom_theme",
+  "highlight":"default",
   "css":["main.css"],
   "colors": {
     "primaryColor": "#222222",
